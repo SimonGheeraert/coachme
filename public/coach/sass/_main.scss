@@ -20,12 +20,17 @@ $min-width: span(12 of 12);
 	@include span(12 of 12);
 	#hero_picture{
 		@include span(12 of 12);
-		background-image: url('img/beach_hero.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 700px;
+		#picture{
+			z-index: -1;
+			@include span(12 of 12);
+			img{
+				@include span(12 of 12);
+			}
+		}
 
 	  	#hero{
+	  		position: absolute;
+	  		z-index: 1;
 	  		margin-top: 50px;
 	  		@include span(11 of 12);
 	  		@include squish(0.5 of 12);
@@ -41,7 +46,9 @@ $min-width: span(12 of 12);
 	  		}
 	  	}
 	  	#hero_text{
-	  		margin-top: 200px;
+	  		position: absolute;
+	  		z-index: 1;
+	  		margin-top: 500px;
 	  		@include span(6 of 12);
 	  		@include squish(3 of 12);
 	  		p{
@@ -53,7 +60,9 @@ $min-width: span(12 of 12);
 	  		}
 	  	}
 	  	#hero_action{
-	  		margin-top: 50px;
+	  		position: absolute;
+		  	z-index: 1;
+	  		margin-top: 650px;
 	  		@include span(4 of 12);
 	  		@include squish(4 of 12);
 	  		text-align: center;
