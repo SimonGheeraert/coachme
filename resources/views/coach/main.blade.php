@@ -45,7 +45,7 @@
 
     <div id="main_wrapper">
         <div id="hero_picture">
-            <div id="picture"><img src="{{asset('img/beach_hero.png')}}"></div>
+            <div id="picture"><img src="{{asset('img/beach_picture.png')}}"></div>
             <div id="hero"><a href="#">lifecoaching<br>online</a></div>
             <div id="hero_text">
                 <p>Quisque at libero vitae lacus imperdiet <br> porta non a eros.</p>
