@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Line + Line Copy 4 + Line + Line Copy 5 + Line + Line Copy 4 + Line + Line Copy 5 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Line-+-Line-Copy-4-+-Line-+-Line-Copy-5-+-Line-+-Line-Copy-4-+-Line-+-Line-Copy-5-Copy" sketch:type="MSLayerGroup" transform="translate(1.000000, 11.000000)" stroke-linecap="square" stroke="#3E3E3E" fill="#3E3E3E">
+            <g id="Line-+-Line-Copy-4-+-Line-+-Line-Copy-5" sketch:type="MSShapeGroup">
+                <g id="Line-+-Line-Copy-4" transform="translate(37.149123, 0.000000)">
+                    <path d="M38.9553438,1.91784475 L1.90942661,39.1481693 L1.37493751,39.685319 L0.261418557,38.6539916 L0.795907656,38.1168419 L37.8418248,0.88651736 L38.3763139,0.349367678 L39.4898329,1.38069507 L38.9553438,1.91784475" id="Line"></path>
+                </g>
+                <g id="Line-+-Line-Copy-5" transform="translate(19.925439, 20.000000) scale(-1, 1) translate(-19.925439, -20.000000) ">
+                    <path d="M38.9553438,1.91784475 L1.90942661,39.1481693 L1.37493751,39.685319 L0.261418557,38.6539916 L0.795907656,38.1168419 L37.8418248,0.88651736 L38.3763139,0.349367678 L39.4898329,1.38069507 L38.9553438,1.91784475" id="Line"></path>
+                </g>
+            </g>
+            <g id="Line-+-Line-Copy-4-+-Line-+-Line-Copy-5-Copy" transform="translate(0.000000, 18.000000)" sketch:type="MSShapeGroup">
+                <g id="Line-+-Line-Copy-4" transform="translate(37.149123, 0.000000)">
+                    <path d="M38.9553438,1.91784475 L1.90942661,39.1481693 L1.37493751,39.685319 L0.261418557,38.6539916 L0.795907656,38.1168419 L37.8418248,0.88651736 L38.3763139,0.349367678 L39.4898329,1.38069507 L38.9553438,1.91784475" id="Line"></path>
+                </g>
+                <g id="Line-+-Line-Copy-5" transform="translate(19.925439, 20.000000) scale(-1, 1) translate(-19.925439, -20.000000) ">
+                    <path d="M38.9553438,1.91784475 L1.90942661,39.1481693 L1.37493751,39.685319 L0.261418557,38.6539916 L0.795907656,38.1168419 L37.8418248,0.88651736 L38.3763139,0.349367678 L39.4898329,1.38069507 L38.9553438,1.91784475" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,514 @@
+$min-width: span(12 of 12);
+
+.headroom {
+    transition: transform 300ms ease;
+    -webkit-transition: transform 300ms ease;
+}
+.headroom--pinned {
+    transform: translateY(0%); 
+    -webkit-transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-110%);
+    -webkit-transform: translateY(-110%);
+}
+
+#main_wrapper{
+	background-color: #F1F0EE;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+	@include span(12 of 12);
+	#hero_picture{
+		@include span(12 of 12);
+		background-image: url('img/beach_hero.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 700px;
+
+	  	#hero{
+	  		margin-top: 50px;
+	  		@include span(11 of 12);
+	  		@include squish(0.5 of 12);
+	  		text-align: center;
+	  		a{
+	  			opacity: 0.6;
+	  			letter-spacing: 3px;
+	  			text-align: center;
+	  			text-decoration: none;
+	  			color: #3E3E3E;
+	  			font-family: 'brandon_grotesquethin';
+	  			font-size: 100px;
+	  		}
+	  	}
+	  	#hero_text{
+	  		margin-top: 200px;
+	  		@include span(6 of 12);
+	  		@include squish(3 of 12);
+	  		p{
+	  			text-align: center;
+	  			font-family: 'brandon_grotesquethin';
+	  			font-size: 40px;
+	  			color: #F1F0EE;
+	  			line-height: 55px;
+	  		}
+	  	}
+	  	#hero_action{
+	  		margin-top: 50px;
+	  		@include span(4 of 12);
+	  		@include squish(4 of 12);
+	  		text-align: center;
+	  		a{
+	  			text-decoration: none;
+	  			text-align: center;
+	  			color: #F1F0EE;
+	  			border: 1px solid #F1F0EE;
+	  			text-transform: uppercase;
+	  			padding-top: 10px;
+	  			padding-bottom: 10px;
+	  			padding-left: 10px;
+	  			padding-right: 10px;
+	  			font-size: 30px;
+	  			letter-spacing: 3px;
+	  			font-family: 'brandon_grotesquelight';
+	  		}
+	  	}
+	}
+	#waarom_lifecoaching{
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+	background-color: #F1F0EE;
+		#box_line{
+			@include span(1 of 12);
+			@include pre(1.4 of 12);
+			@include post(9.6 of 12);
+			height: 60px;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			border-right: 1px solid #4A4A4A;
+		}
+		h1{
+			font-family: 'edmondsansbold';
+			font-size: 100px;
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+			color: #3E3E3E;
+		}
+		h2{
+			font-family: 'brandon_grotesquethin';
+			font-size: 100px;
+			letter-spacing: 3px;
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+			color: #3E3E3E;
+		}
+		p{
+			font-family: 'brandon_grotesqueregular';
+			color: #3E3E3E;
+			@include span(6 of 12);
+			@include pre(1.5 of 12);
+			@include post(4.5 of 12);
+			font-size: 26px;
+			line-height: 39px;
+			padding-top: 50px;
+			text-align: justify;
+		}
+		.third_paragraph{
+			display: none;
+			opacity: 0;
+		}
+		.fourth_paragraph{
+			display: none;
+			opacity: 0;
+			margin-bottom: 50px;
+		}
+		a{
+			font-size: 24px;
+			font-family: 'edmondsansbold';
+			margin-top: 30px;
+			margin-bottom: 40px;
+			color: #3E3E3E;
+			text-decoration: underline;
+			@include span(2.5 of 12);
+			@include pre(1.5 of 12);
+			@include post(8 of 12);
+		}
+	}
+	#soorten_lifecoaching{
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+		@include span(12 of 12);
+		#heading{
+		@include span(12 of 12);
+		background-image: url('img/clouds.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 400px;
+		h1{
+			margin-top: 120px;
+			@include span(10.5 of 12);
+			@include post(1.5 of 12);
+			text-align: right;
+			font-family: 'edmondsansbold';
+			font-size: 100px;
+			color: #3E3E3E;
+		}
+		h2{
+			@include span(10.5 of 12);
+			@include post(1.5 of 12);
+			text-align: right;
+			font-family: 'brandon_grotesquethin';
+			font-size: 100px;
+			letter-spacing: 3px;
+			color: #3E3E3E;
+		}
+		#soorten_line{
+			@include span(1 of 12);
+			@include pre(9.6 of 12);
+			@include post(1.4 of 12);
+			height: 70px;
+			margin-top: 10px;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			border-left: 1px solid #4A4A4A;			
+		}		
+		}
+		#work{
+			margin-bottom: -10px;
+			@include container(100%);
+			.kinds{
+				z-index: -1;
+				@include span(12 of 12);
+			}
+			.z{
+				z-index: 1;
+				position: absolute;
+				top: 75%;
+				left: 40%;
+			}
+			.y{
+				z-index: 1;
+				position: absolute;
+				top: 75%;
+				left: 55%;			
+			}
+		}
+		.uitleg{
+		display: none;
+		opacity: 0;
+		@include span(12 of 12);
+		h1{
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+			font-family: 'edmondsansbold';
+			font-size: 60px;
+			color: #3E3E3E;
+			margin-top: 50px;
+		}
+		p{
+			@include span(9 of 12);
+			@include squish(1.5 of 12);
+			margin-top: 50px;
+			font-family: 'brandon_grotesquelight';
+			font-size: 30px;
+			line-height: 45px;
+			color: #3E3E3E;
+			text-align: justify;				
+		}
+		a.leesmeer{
+			margin-top: 20px;
+			font-size: 25px;
+			font-family: 'edmondsansbold';
+			color: #3E3E3E;
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+		}
+		.icon_request{
+			margin-top: 70px;
+			@include span(2 of 12);
+			@include squish(5 of 12);
+			text-align: center;
+			margin-bottom: 50px;
+		}		
+		}
+	}
+	#werkwijze{
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+			@include span(12 of 12);
+		#header_werkwijze{
+			@include span(12 of 12);
+			background-image: url('img/blurred_clouds.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 400px;
+		h1{
+			margin-top: 120px;
+			@include span(10.5 of 12);
+			@include post(1.5 of 12);
+			text-align: right;
+			font-family: 'edmondsansbold';
+			font-size: 100px;
+			color: #3E3E3E;
+		}
+		h2{
+			@include span(10.5 of 12);
+			@include post(1.5 of 12);
+			text-align: right;
+			font-family: 'brandon_grotesquethin';
+			font-size: 100px;
+			letter-spacing: 5px;
+			color: #3E3E3E;
+		}
+			#werkwijze_line{
+			@include span(1 of 12);
+			@include pre(9.6 of 12);
+			@include post(1.4 of 12);
+			height: 70px;
+			margin-top: 10px;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			border-left: 1px solid #4A4A4A;	
+			}
+		}
+
+		#page_one{
+			background-color: #ECE9E4;
+			@include span(12 of 12);
+		}
+
+		#page_two{
+			@include span(12 of 12);
+			background-color: #E2E1DF;		
+		}
+
+		#page_three{
+			@include span(12 of 12);
+			background-color: #ECE9E4;
+		}
+
+		.number{
+			margin-top: 30px;
+			@include pre(1.5 of 12);
+			@include span(10.5 of 12);
+		}
+		.icon_how{
+			margin-top: 20px;
+			@include span(12 of 12);
+			text-align: center;
+
+		}
+		.h2{
+			@include span(12 of 12);
+			margin-top: 50px;
+			text-align: center;
+			font-family: 'edmondsansmedium';
+			font-size: 70px;
+			color: #3E3E3E;
+		}
+		.paragraph{
+			margin-top: 50px;
+			@include pre(2.5 of 12);
+			@include span(7 of 12);
+			@include post(2.5 of 12);
+			text-align: justify;
+			font-family: 'brandon_grotesquelight';
+			font-size: 30px;
+			line-height: 45px;
+			color: #3E3E3E;
+			margin-bottom: 50px;
+		}
+		.icon_go_down{
+			@include span(12 of 12);
+			text-align: center;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			img{
+				position: relative;
+			}
+		}
+	}
+
+	#tarieven{
+	-webkit-font-smoothing: antialiased !important;
+	-moz-font-smoothing: antialiased !important;
+			@include span(12 of 12);
+		#header_tarieven{
+			@include span(12 of 12);
+			background-image: url('img/blurry_clouds.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 400px;
+		h1{
+			margin-top: 100px;
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+			font-family: 'edmondsansbold';
+			font-size: 100px;
+			color: #3E3E3E;
+		}
+		h2{
+			@include span(10.5 of 12);
+			@include pre(1.5 of 12);
+			font-family: 'brandon_grotesquethin';
+			font-size: 100px;
+			letter-spacing: 5px;
+			color: #3E3E3E;
+		}
+		#tarieven_line{
+			margin-top: 10px;
+			@include span(1 of 12);
+			@include pre(1.4 of 12);
+			@include post(9.6 of 12);
+			height: 90px;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			border-right: 1px solid #4A4A4A;			
+		}
+		}
+		#tarieven_box{
+			@include span(12 of 12);
+			background-color: #F1F0EE; 
+			#box_wrapper{
+				margin-top: 50px;
+				@include span(9 of 12);
+				@include squish(1.5 of 12);
+				#box_one{
+					background-color: #ECE9E4;
+					@include span(3.2 of 10);
+					@include post(0.2 of 10);
+				}
+				#box_two{
+					background-color: #ECE9E4;
+					@include span(3.2 of 10);
+					@include post(0.2 of 10);
+				}
+				#box_three{
+					background-color: #ECE9E4;
+					@include span(3.2 of 10);
+				}
+				.offer_image{
+					@include span(10 of 10);
+					margin-top: 20px;
+					text-align: center;
+
+				}
+				.session{
+					font-family: 'brandon_grotesquethin';
+					font-size: 35px;
+					text-align: center;
+					@include span(10 of 10);
+					color: #3E3E3E;
+				}
+				.onehour{
+					color: #3E3E3E;
+					font-family: 'edmondsansregular';
+					font-size: 50px;
+					text-align: center;
+					@include span(10 of 10);
+				}
+				.btw{
+					@include span(8 of 10);
+					@include squish(1 of 10);
+					color: #BDB9B6;
+					font-family: 'edmondsansregular';
+					font-size: 20px;
+					text-align: right;
+					margin-top: 70px;
+					border-bottom: 3px solid #D9D6D3;
+					margin-bottom: 10px;
+				}
+				.beurt{
+					@include span(4 of 10);
+					@include pre(1 of 10);
+					font-family: 'edmondsansregular';
+					font-size: 30px;
+					color: #3E3E3E;
+					line-height: 50px;
+
+				}
+				.euro{
+					@include span(4 of 10);
+					@include post(1 of 10);
+					font-family: 'edmondsansmedium';
+					font-size: 40px;
+					line-height: 40px;
+					text-align: right;
+					color: #3E3E3E;
+				}
+
+				#pertwee{
+					font-family: 'brandon_grotesquethin';
+					font-size: 25px;
+					text-align: center;
+					@include span(10 of 10);
+					color: #3E3E3E;
+
+				}
+
+				.alternatief{
+					margin-top: 45px;
+				}
+
+				.inclusief{
+					margin-top: 40px;
+					border-bottom: none;
+				}
+
+				.exclusief{
+					margin-top: 0px;
+				}
+
+				.boek_button{
+					margin-top: 20px;
+					@include span(10 of 12);
+					@include squish(1 of 12);
+					text-transform: uppercase;
+					text-align: center;
+					font-family: 'brandon_grotesquelight';
+					font-size: 25px;
+					letter-spacing: 2px;
+					color: #ECE9E4;
+					background-color: #364F70;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					text-decoration: none;
+					margin-bottom: 20px;
+				}
+			#box_bedrijven{
+				@include span(10 of 10);
+				margin-top: 30px;
+				background-color: #ECE9E4;
+				h1{
+					margin-top: 30px;
+					margin-bottom: 20px;
+					font-family: 'edmondsansbold';
+					font-size: 40px;
+					color: #3E3E3E;
+					border-bottom: 1px solid #D9D6D3;
+					@include span(9.6 of 10);
+					@include squish(0.2 of 10);
+				}
+
+				p{
+					font-family: 'brandon_grotesquelight';
+					font-size: 30px;
+					color: #3E3E3E;
+					@include span(9.6 of 10);
+					@include squish(0.2 of 10);	
+					text-align: justify;
+					margin-bottom: 30px;
+					line-height: 45px;				
+				}
+
+
+			}
+			}
+		}
+	}
+
+
+}
